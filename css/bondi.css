@@ -1,6 +1,6 @@
 body{
   font-family: "Roboto", sans-serif;
-    height: 10000px;
+   
 }
 
 
@@ -33,6 +33,7 @@ color: white;
 .search{
     border-left: 1px solid var(--green-color);
     padding-left: 10px;
+    
     
 }
 .search button{
@@ -178,8 +179,52 @@ ul li{
 /* End section 4 */
 
 /* Strat section 5 */
-.size-secion-5{
-    height: 188px;
+
+.bg-greee{
+    background-color: var(--color-dark);
 }
 
+
+.he-section-5{
+    height: 310px;
+}
 /* End Section 5 */
+
+/* Strat section 6 */
+.section-6 div img{
+   
+   margin-bottom: 25px;
+    max-width: 100%;
+   height: auto ;
+}
+.bord{
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+/* End Section 6 */
+
+/* Strat Email */
+.bg-c{
+    background-color: var(--yellow-color);
+}
+.Email{
+
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.Email input{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Email {
+    outline: none;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+
+
+/* End Email */
