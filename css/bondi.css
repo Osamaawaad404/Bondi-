@@ -108,6 +108,7 @@ margin-top: 100px;
 }
 ul li{
     list-style: none;
+    text-transform: capitalize;
 }
 .funtures-2 li a:hover {
     color: var(--red-color);
@@ -140,10 +141,7 @@ ul li{
 
 /* end section 2 */
 /* Start section 3 */
-.text{
-       
-    max-width: 500px;
-}
+
 .color-text{
     color: rgba(0, 0, 0, .5) !important;
 }
@@ -228,3 +226,42 @@ ul li{
 
 
 /* End Email */
+
+
+/* Start footer  */
+.color-text-footer{
+    color: rgba(255,255,255,.5)!important;
+}
+
+.fa-facebook{
+    border: 8px solid #0d6efd;
+    border-radius: 50%;
+}
+.bg-b{
+    background-color: #0d6efd;
+}
+.bg-bt{
+    background-color: #1da1f2;
+}
+.bg-bl{
+    background-color: #0077b5;
+}
+.fa-twitter{
+    border: 8px solid #1da1f2;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    border: 9px solid #0077b5;
+    border-radius: 50%;
+}
+.fa-youtube{
+    border: 10px solid #ff0000;
+    border-radius: 50%;
+}
+.bg-ry{
+ background-color:#ff0000 ;}
+
+ .footer-2 ul,.footer-3 ul{
+    line-height: 2;
+ }
+/* End footer  */

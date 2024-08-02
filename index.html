@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="image/logo-title.jpeg" />
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bondi.css">
     <link rel="stylesheet" href="css/mdb.dark.min.css.map">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -58,6 +61,9 @@
 
         .color-dark {
             color: var(--color-dark);
+        }
+        .color-green{
+            color: var(--green-color);
         }
 
         /* End root  */
@@ -122,14 +128,14 @@
                 </ul>
 
                 <div class="dropdown d-none d-sm-none  d-md-lg-block d-lg-block d-xl-block">
-                    <button class="btn  p-0 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    <button class="btn  p-0 color-green " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        <i class="fa-solid fa-magnifying-glass fa-2x fs-6 search ps-3 pe-3 "></i>
+                        <i class="fa-solid fa-magnifying-glass p-1 fa-2x fs-6 search ps-3 pe-3 "></i>
 
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <div class="input-group   text-light " style="width: 100%;">
-                            <div id="search-autocomplete" class="form-outline" data-mdb-input-init>
+                        <div class="input-group   text-light w-100 ">
+                            <div id="search-autocomplete" class="form-outline w-100" data-mdb-input-init>
                                 <input type="search" id="form1" class="form-control" />
                                 <label class="form-label" for="form1">Search</label>
                             </div>
@@ -142,7 +148,7 @@
 
                 </div>
                 <div class="input-group  d-lg-none d-xl-none mt-2 mb-2 text-light">
-                    <div id="search-autocomplete" class="form-outline" data-mdb-input-init>
+                    <div id="search-autocomplete" class="form-outline w-100" data-mdb-input-init>
                         <input type="search" id="form1" class="form-control" />
                         <label class="form-label" for="form1">Search</label>
                     </div>
@@ -151,7 +157,7 @@
                     </button>
                 </div>
 
-                <a href="#" class="btn btn-danger btn-main rounded-pill color-y color-r text-capitalize">Login</a>
+                <a href="#" class="btn btn-danger btn-main rounded-pill color-y color-r text-capitalize fs-6 ps-3 pe-3">Login</a>
 
             </div>
 
@@ -340,10 +346,10 @@
                 ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
         </div>
         <div class="row">
-            <div class=" mt-5 col-12 color-text text-center text-md-start col-lg-4  text-black-60 ">
-                <div class="text">
+            <div class=" mt-5 col-12 color-text text-center  text-md-start col-lg-4  text-black-60 ">
+                <div class="text w-sm-start ">
                     <h3 class="color-b ">Retina Design</h3>
-                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
+                    <p class="w-100 w-md-start">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
                         elit,
                         eget
                         tincidunt nibh
@@ -512,10 +518,11 @@
                     </div>
                 </div>
             </div>
+            
             <div class="text-center mt-5 flex-column d-flex justify-content-center align-items-center">
                 <a href="#"
                     class="btn  color-r btn-main rounded-pill  justify-content-center ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">
-                    MORE stories
+                    More stories
                 </a>
             </div>
         </div>
@@ -552,6 +559,86 @@
     </div>
     <!-- End Email -->
 
+    <!-- Start footer  -->
+    <footer class="bg-greee">
+        <div class="container">
+            <div class="row">
+                <div class="footer-1 col-lg-3">
+    
+                    <div class=" col-12 color-text text-center text-md-start   text-black-60 ">
+                        <img src="image/logo.png" class="mb-3 mt-5" alt="">
+                        <p class="color-text-footer">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia
+                            eget
+                            consectetur sed, convallis
+                            at tellus.
+    
+                        </p>
+                        <p class="color-text-footer">Created By <span class="color-y"> Graphberry</span> <br>
+                            © 2022 - <span class="color-green">Bondi Inc</span> </p>
+                    </div>
+                </div>
+                <div class="footer-2 mb-3 col-lg-3 mt-5">
+                    <div class=" col-12 color-text text-center text-md-start    text-black-60 ">
+                        <ul class="">
+                            <li class="active fs-3 text-light">Links</li>
+                            <li class="color-text-footer ">Home</li>
+                            <li class="color-text-footer ">Our Services</li>
+                            <li class="color-text-footer ">portfolio</li>
+                            <li class="color-text-footer">Testimonials</li>
+                            <li class="color-text-footer ">Support</li>
+                            <li class="color-text-footer ">Terms and Condition</li>
+                        </ul>
+    
+                    </div>
+                </div>
+    
+                <div class="footer-2 mb-3 col-lg-3 mt-5">
+                    <div class=" col-12 color-text text-center text-md-start     text-black-60 ">
+                        <ul class="">
+                            <li class="active fs-3 text-light">About Us </li>
+                            <li class="color-text-footer ">About Us </li>
+                            <li class="color-text-footer ">Sign </li>
+                            <li class="color-text-footer ">Register </li>
+                            <li class="color-text-footer ">About Us </li>
+                            <li class="color-text-footer ">Blog</li>
+                            <li class="color-text-footer">Contact Us </li>
+                        </ul>
+    
+                    </div>
+                </div>
+    
+                <div class="footer-2 mb-3 col-lg-3 mt-5">
+                    <div class=" col-12 color-text text-center text-md-start     text-black-60 ">
+                        <h3 class="text-center text-light">Contact Us</h3>
+                        <p class="color-text-footer">Get in touch with us via mail phone.We are waiting for your call or
+                            message
+                        </p>
+                        <div class="text-center mt-5 flex-column d-flex justify-content-center align-items-center">
+                            <a href="#"
+                                class="btn w-100  color-r w-sm-start btn-main rounded-pill  justify-content-center ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">
+                                graphberry@gmail.com </a>
+                        </div>
+                    </div>
+    
+                    <div class="icon-footer mt-5 ">
+    
+                        <ul class="column ps-0 d-flex">
+    
+                            <li><i class="fa-brands fs-5 bg-b text-light  me-3 fa-facebook"></i></li>
+                            <li><i class="fa-brands fs-5 bg-bt text-light me-3 fa-twitter"></i></li>
+                            <li><i class="fa-brands fs-5 bg-bt text-light me-3 fa-linkedin"></i></li>
+                            <li><i class="fa-brands me-3 bg-ry text-light fa-youtube"></i></li>
+    
+                        </ul>
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
 
 
     <script src="js/mdb.umd.min.js"></script>
