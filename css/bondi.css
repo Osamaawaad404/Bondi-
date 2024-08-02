@@ -105,4 +105,81 @@ margin-top: 100px;
     max-width: 400px;
     margin: 0 auto;
 }
+ul li{
+    list-style: none;
+}
+.funtures-2 li a:hover {
+    color: var(--red-color);
+}
+.funtures-2 li:first-child a{
+    color: var(--yellow-color);
+}
 /* End funtures */
+
+/* Start section 2 */
+
+
+.section-2 div img{
+    border: 5px solid rgb(247, 245, 245);
+   margin-bottom: 25px;
+    max-width: 100%;
+   height: auto ;
+}
+.bg-green{
+    background-color: var(--section-color);
+
+}
+.funtures{
+    padding-top: 100px;
+}
+
+.funtures-2 li a{
+    font-weight: 400;
+}
+
+/* end section 2 */
+/* Start section 3 */
+.text{
+       
+    max-width: 500px;
+}
+.color-text{
+    color: rgba(0, 0, 0, .5) !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* End Secttion 3 */
+
+
+/* Start section 4 */
+.bg-greenn{
+    background-color: var(--green-color);
+}
+.bg-white{
+    background-color: var(--section-color);
+}
+
+
+.section-4 div img{
+   
+   margin-bottom: 25px;
+    max-width: 100%;
+   height: auto ;
+}
+
+.section-4{
+    padding-bottom: 100px;
+}
+
+/* End section 4 */
+
+/* Strat section 5 */
+.size-secion-5{
+    height: 188px;
+}
+
+/* End Section 5 */
