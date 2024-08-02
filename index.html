@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bondi.css">
+    <link rel="stylesheet" href="css/mdb.dark.min.css.map">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>bondi</title>
+</head>
+
+<body>
+    <style>
+        /* Start navbar */
+        .input-group {
+            width: 45%;
+        }
+
+        .dropdown-menu {
+            width: 15rem;
+
+
+        }
+
+        .dropdown-menu[data-bs-popper] {
+            left: -70px;
+        }
+
+        .dropdown-menu[data-bs-popper] {
+            top: 200%;
+        }
+
+        /* End navbar */
+        /* Start root  */
+        .color-r {
+            background-color: var(--red-color);
+        }
+
+        .color-y {
+            color: var(--yellow-color);
+        }
+
+        /* End root  */
+        /* Start landing */
+        .btn-main:hover {
+            color: var(--yellow-color);
+            background-color: var(--red-color);
+        }
+
+        /* End Landing */
+    </style>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <img src="image/logo.png" alt="this is image">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3 active" href="#">Home</a>
+                        <!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">Services</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">portfolio</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">About</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">Contact</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+
+
+                </ul>
+
+                <div class="dropdown d-none d-sm-none  d-md-lg-block d-lg-block d-xl-block">
+                    <button class="btn  p-0 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass fa-2x fs-6 search ps-3 pe-3 "></i>
+
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <div class="input-group   text-light " style="width: 100%;">
+                            <div id="search-autocomplete" class="form-outline" data-mdb-input-init>
+                                <input type="search" id="form1" class="form-control" />
+                                <label class="form-label" for="form1">Search</label>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                                <i class="fas fa-search "></i>
+                            </button>
+                        </div>
+
+                    </ul>
+
+                </div>
+                <div class="input-group  d-lg-none d-xl-none mt-2 mb-2 text-light">
+                    <div id="search-autocomplete" class="form-outline" data-mdb-input-init>
+                        <input type="search" id="form1" class="form-control" />
+                        <label class="form-label" for="form1">Search</label>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <a href="#" class="btn btn-danger btn-main rounded-pill color-y color-r text-capitalize">Login</a>
+
+            </div>
+
+        </div>
+        </div>
+    </nav>
+
+    <!-- End navbar -->
+
+
+    <!-- Start landing  -->
+
+    <div class="text-center landing flex-column d-flex justify-content-center align-items-center">
+        <h2 class="text-light fs-1">Taste the Creativity</h2>
+        <p class="text-whith-5  mb-5  ">We make awesome graphic and web design</p>
+        <a href="#" class="btn  color-r btn-main rounded-pill ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">Get
+            Strated</a>
+
+
+    </div>
+
+    <!-- End landing -->
+
+
+
+    <!-- Start Funtures -->
+    <div class="text-center funtures position-relative">
+        <img src="image/title.png" class="" alt="thtis is image ...">
+        <h2 class="mt-4 mb-2 text-capitalize text-dark">We are Good at</h2>
+        <p class="text-uppercase">Some Of These Stuff Under</p>
+    </div>
+    <!-- Eend Funtures -->
+
+
+    <!-- Start section 1 -->
+    <div class="row mt-5 ">
+        <div class="col-md-6 col-lg-4 ">
+            <div class="feat">
+                <div class="icon-holder position-relative">
+                    <i class="fa-solid one fa-1 position-relative"></i>
+                    <i class="fa-solid pen fa-pencil"></i>
+                </div>
+                <h3 class="text-center mt-3 mb-3 text-uppercase color-y">Graphic Design</h3>
+                <p class="text-center text-black-50 lg-lg mw ">Pellentesque in ipsum id orci porta dapibus. Vivamus
+                    magna
+                    justo,
+                    lacinia
+                    eget
+                    consectetur sed, convallis
+                    at tellus.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="feat">
+                <div class="icon-holder position-relative">
+                    <i class="fa-solid one fa-2 position-relative"></i>
+                    <i class="fa-solid pen fa-display"></i>
+                </div>
+                <h3 class="text-center mt-3 mb-3 text-uppercase color-y">Graphic Design</h3>
+                <p class="text-center text-black-50 lg-lg mw">Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                    justo,
+                    lacinia
+                    eget
+                    consectetur sed, convallis
+                    at tellus.
+                </p>
+            </div>
+
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="feat">
+                <div class="icon-holder position-relative">
+                    <i class="fa-solid one fa-3 position-relative"></i>
+                    <i class="fa-solid pen fa-plug"></i>
+                </div>
+                <h3 class="text-center mt-3 mb-3 text-uppercase color-y">Graphic Design</h3>
+                <p class="text-center text-black-50 lg-lg mw">Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                    justo,
+                    lacinia
+                    eget
+                    consectetur sed, convallis
+                    at tellus.
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <!-- End section 1 -->
+
+
+
+
+    <script src="js/mdb.umd.min.js"></script>
+    <script src="js/mdb.es.min.js.map"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
